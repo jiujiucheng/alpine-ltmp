@@ -1,11 +1,12 @@
 # alpine-ltmp
 > A pure ltmp environment running in docker base on alpine 3.7,the total size is about 500MB.
 
+```
 versions:
 tengine: 2.2.0 (nginx/1.8.1)
 php: 7.1.17
 mysql: Ver 5.6.38-83.0 Distrib 10.1.32-MariaDB
-
+```
 ## PHP Extensions
 
 - php7-ctype
