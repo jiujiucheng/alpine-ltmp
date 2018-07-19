@@ -1,5 +1,5 @@
 # alpine-ltmp
-> A pure ltmp environment running in docker base on alpine 3.7,the total size is about 500MB.
+> A pure ltmp environment running in docker base on alpine 3.7,the total size is about 500MB,the compressed Size is 172M.
 
 ```
 versions:
@@ -42,8 +42,21 @@ mysql: Ver 5.6.38-83.0 Distrib 10.1.32-MariaDB
 - php7-zli
 - php7-fpm
 
+### Docker Hub
 
-### Build Yourself (if you want)
+```bash
+# pull the image
+docker pull edwin001/alpine-ltmp
+
+# start the container
+docker run -itd -p80:80 -p3306:3306 --name alpine-ltmp edwin001/alpine-ltmp:latest
+
+# or mount your application code
+docker run -itd -p80:80 -p3306:3306 -v /Your-Code-Path:/usr/share/nginx/html --name alpine-ltmp edwin001/alpine-ltmp:latest
+
+````
+
+### Build Yourself 
 
 ```bash
 cd alpine-ltmp;
