@@ -70,4 +70,4 @@ docker run -itd -p80:80 -p3306:3306 -v /Your-Code-Path:/usr/share/nginx/html --n
 ```
 
 ### End 
-![phpinfo](http://wx2.sinaimg.cn/thumb150/7c0d9e07ly1ftezcvtupdj21kw0u7dsm.jpg)
+![phpinfo](http://ww1.sinaimg.cn/mw690/7c0d9e07ly1ftf17hupfxj21sa0xiqes.jpg)
