@@ -68,3 +68,6 @@ docker run -itd -p80:80 -p3306:3306 --name alpine-ltmp alpine-lnmp:0.1
 # or mount your application code
 docker run -itd -p80:80 -p3306:3306 -v /Your-Code-Path:/usr/share/nginx/html --name alpine-ltmp alpine-ltmp:0.1
 ```
+
+### End 
+![phpinfo](http://wx2.sinaimg.cn/thumb150/7c0d9e07ly1ftezcvtupdj21kw0u7dsm.jpg)
