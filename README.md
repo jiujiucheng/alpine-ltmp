@@ -69,5 +69,6 @@ docker run -itd -p80:80 -p3306:3306 --name alpine-ltmp alpine-lnmp:0.1
 docker run -itd -p80:80 -p3306:3306 -v /Your-Code-Path:/usr/share/nginx/html --name alpine-ltmp alpine-ltmp:0.1
 ```
 
-### End 
+### End
+view: `host/index.php`,you will see:
 ![phpinfo](http://ww1.sinaimg.cn/mw690/7c0d9e07ly1ftf17hupfxj21sa0xiqes.jpg)
