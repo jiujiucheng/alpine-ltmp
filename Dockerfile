@@ -94,6 +94,8 @@ RUN apk add php7 \
             php7-sqlite3 \
             php7-xml \
             php7-xmlwriter \
+            php7-pear \ 
+            php7-dev \
             php7-zlib;
 
 
